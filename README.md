@@ -158,6 +158,6 @@ router.get("/", authMiddleware, roleMiddleware(["admin", "editor"]), getAllUsers
 
 ## 👨‍💻 Author
 
-Developed by **VinithBylapudi** **https://github.com/Vinith1801/AccessForge.git**
+Developed by **VinithBylapudi** **https://github.com/sai-vanitha/AccessForge.git**
 
 ---
