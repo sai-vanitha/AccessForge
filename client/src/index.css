@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+}
+
+.animate-animatePulse {
+  animation: pulseSlow 6s ease-in-out infinite;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1000ms;
+}
